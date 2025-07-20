@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { ResumesService } from './resumes.service';
 
-@Module({})
+@Module({
+  providers: [ResumesService]
+})
 export class ResumesModule {}
